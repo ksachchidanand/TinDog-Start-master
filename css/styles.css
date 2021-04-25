@@ -52,16 +52,16 @@ h3 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
-    position: absolute;
     right: 30%;
-    /* z-index: 0; */
+    position: absolute;
+    z-index: 1;
 }
 
 #features {
     padding: 7% 15%;
     background-color: #ffff;
     position: relative;
-    /* z-index: 1; */
+    z-index: 3;
 }
 
 .feature-box {
@@ -124,4 +124,51 @@ h2 {
 
 .pricing-col {
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        margin: auto;
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding:  7% 20%;
+}
+
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #ffff;
+    margin-bottom: 8%;
+}
+
+.d-btn {
+    margin: 10px;
+}
+
+#footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #ffff;
+}
+
+.footer-icon {
+    padding: 1.5rem 0.75rem;
+}
+
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #8f8f8f;
 }
