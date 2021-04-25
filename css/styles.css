@@ -141,7 +141,7 @@ h2 {
 #cta {
     text-align: center;
     background-color: #ff4c68;
-    padding:  7% 20%;
+    padding:  5% 20%;
 }
 
 .cta-text {
@@ -150,14 +150,15 @@ h2 {
     font-size: 3.5rem;
     color: #ffff;
     margin-bottom: 8%;
+    line-height: 1.5;
 }
 
 .d-btn {
-    margin: 10px;
+    margin: 1rem;
 }
 
 #footer {
-    margin-top: 30px;
+    margin-top: 2rem;
     text-align: center;
     background-color: #ffff;
 }
